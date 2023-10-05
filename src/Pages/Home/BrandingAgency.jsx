@@ -37,22 +37,22 @@ const SocialIconsData08 = [
         link: "https://www.facebook.com/",
         icon: "fab fa-facebook-f"
     },
+    // {
+    //     name: "DRIBBBLE",
+    //     color: "#ea4c89",
+    //     link: "https://dribbble.com/",
+    //     icon: "fab fa-dribbble"
+    // },
     {
-        name: "DRIBBBLE",
-        color: "#ea4c89",
-        link: "https://dribbble.com/",
-        icon: "fab fa-dribbble"
-    },
-    {
-        name: "BEHANCE",
+        name: "LINKEDIN",
         color: "#1769ff",
-        link: "https://www.behance.net/",
-        icon: "fab fa-behance"
+        link: "https://linkedin.com/company/legacies",
+        icon: "fab fa-linkedin-in"
     },
     {
         name: "INSTAGRAM",
         color: "#fe1f49",
-        link: "https://www.instagram.com/",
+        link: "https://instagram.com/legacies.app",
         icon: "fab fa-instagram"
     },
 ]
@@ -122,7 +122,7 @@ const BrandingagencyPage = (props) => {
                     </Navbar.Collapse> */}
                     <Col className="col-auto col-lg-2 text-end hidden-xs px-lg-0 md:!pl-[30px]">
                         {/* <SocialIcons theme="social-icon-style-01" className="justify-end" size="xs" iconColor="dark" data={HeaderSocialIconsData} /> */}
-                        <Buttons ariaLabel="about-us" to="/page/about-us" className="btn-fill btn-fancy font-medium font-serif uppercase rounded-none btn-shadow" size="md" themeColor="#000" color="#fff" title="Get Started" />
+                        <Buttons ariaLabel="about-us" className="btn-fill btn-fancy font-medium font-serif uppercase rounded-none btn-shadow"  href="https://wa.me/+919629572929" size="md" themeColor="#000" color="#fff" title="Get Started" /> 
                     </Col>
                 </HeaderNav>
             </Header>
@@ -174,7 +174,7 @@ const BrandingagencyPage = (props) => {
                                 <h2 className="heading-4 font-serif font-semibold text-darkgray -tracking-[2px] mb-12">To Elevate Your Brand Value</h2>
                                 <p className="w-[90%] mb-[25px] xl:w-full xs:mb-[15px]">At Legacies, we embrace innovation and storytelling as powerful tools for change. Our mission is to craft compelling narratives, ignite inspiration, and empower future leaders. Through our diverse platforms, we connect, inform, and inspire individuals and businesses, shaping a brighter, more impactful tomorrow.</p>
                                 <div className="mt-[25px]">
-                                    <Buttons ariaLabel="about-us" to="/page/about-us" className="btn-fill btn-fancy font-medium font-serif uppercase rounded-none btn-shadow" size="md" themeColor="#000" color="#fff" title="Get Started" />
+                                    <Buttons ariaLabel="about-us" to="/page/about-us" className="btn-fill btn-fancy font-medium font-serif uppercase rounded-none btn-shadow"  href="https://wa.me/+919629572929" size="md" themeColor="#000" color="#fff" title="Get Started" />
                                 </div>
                             </m.div>
                             <Col lg={2} md={6} className="flex flex-col justify-center border-[1px] !border-t-0 !border-b-0 border-[#f5f5f5] p-0 sm:h-[400px] sm:border-0 md:h-[600px] md:justify-end">
@@ -198,7 +198,7 @@ const BrandingagencyPage = (props) => {
                             </Col>
                             <ProcessStep grid="row-cols-1 row-cols-sm-2 row-cols-lg-4 gap-y-10" theme="process-step-style-03" data={ProcessStepData03} animation={fadeIn} animationDelay={0.3} />
                             <Col className="text-center mt-32 lg:mt-24 sm:mt-16">
-                                <Buttons ariaLabel="contact-simple" to="/page/contact-simple" className="btn-fill btn-fancy shadow-[0_0_15px_rgba(0,0,0,0.08)] font-medium font-serif uppercase rounded-none btn-shadow text-[15px] md:mb-[15px]" size="lg" themeColor="#fff" color="#000" title="Get Started" />
+                                <Buttons ariaLabel="contact-simple" to="/page/contact-simple" className="btn-fill btn-fancy shadow-[0_0_15px_rgba(0,0,0,0.08)] font-medium font-serif uppercase rounded-none btn-shadow text-[15px] md:mb-[15px]"  href="https://wa.me/+919629572929" size="lg" themeColor="#fff" color="#000" title="Get Started" />
                             </Col>
                         </Row>
                     </Container>

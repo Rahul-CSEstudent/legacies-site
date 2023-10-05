@@ -105,21 +105,21 @@ const serviceData5 = [
         title: "Legacies Forum",
         icon: "feather-arrow-right",
         content: "Legacies Forum fosters connections and amplifies your brand's voice through events and media solutions.",
-        link: "/page/about-me",
+        link: "https://wa.me/+919629572929",
         linkTitle: "Join"
     },
     {
         title: "Lead With Legacies",
         icon: "feather-arrow-right",
         content: "Lead with Legacies is committed to nurturing tomorrow's leaders through innovative educational solutions.",
-        link: "/page/about-me",
+        link: "https://lead.legacies.app",
         linkTitle: "Learn"
     },
     {
         title: "Legacies Navigate",
         icon: "feather-arrow-right",
         content: "As a PR platform, Legacies Navigate empowers you with knowledge and insights in the world of online media.",
-        link: "/page/about-me",
+        link: "https://navigate.legacies.app",
         linkTitle: "Share"
     }
 ]

@@ -268,25 +268,25 @@ const SocialIconsData08 = [
     {
         name: "FACEBOOK",
         color: "#3b5998",
-        link: "https://www.facebook.com/",
+        link: "https://instagram.com/legacies.app",
         icon: "fab fa-facebook-f"
     },
+    // {
+    //     name: "DRIBBBLE",
+    //     color: "#ea4c89",
+    //     link: "https://dribbble.com/",
+    //     icon: "fab fa-dribbble"
+    // },
     {
-        name: "DRIBBBLE",
-        color: "#ea4c89",
-        link: "https://dribbble.com/",
-        icon: "fab fa-dribbble"
-    },
-    {
-        name: "BEHANCE",
+        name: "LINKED IN",
         color: "#1769ff",
-        link: "https://www.behance.net/",
-        icon: "fab fa-behance"
+        link: "https://linkedin.com/company/legacies",
+        icon: "fab fa-linkedin-in"
     },
     {
         name: "INSTAGRAM",
         color: "#fe1f49",
-        link: "https://www.instagram.com/",
+        link: "https://instagram.com/legacies.app",
         icon: "fab fa-instagram"
     },
 ]
