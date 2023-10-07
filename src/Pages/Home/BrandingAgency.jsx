@@ -315,7 +315,7 @@ const BrandingagencyPage = (props) => {
                 <Buttons ariaLabel="button link" href="#" className="font-medium font-serif uppercase btn-expand" size="lg" color="#fff" themeColor="#232323" title="Join the people" />
               </Col>
               <Col xl={{ offset: 1, span: 5 }} lg={{ span: 5, order: 1 }} className="p-[0px] xs:px-[15px]">
-                <img width="" height="" src='/assets/img/webp/lgcs.webp' alt="Our Team" className="md:mx-auto" />
+                <img width="" height="" src='/assets/img/pic.jpg' alt="Our Team" className="md:mx-auto" />
               </Col>
             </Row>
           </Container>
